@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lora&display=swap");
+@import url("components/container.css");
+@import url("components/products.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/banner2.css");
+@import url("components/container2.css");
+@import url("components/banner3.css");
+@import url("components/container3.css");
+@import url("components/container4.css");
+@import url("components/banner4.css");
+@import url("components/card.css");
+@media(max-width: 960px){
+  .container, .container2, .container3{
+    width: 700px;
+  }
+  }
+}
+@media (max-width: 720px) {
+  .container, .container2, .container3 {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container, .container2, .container3 {
+    width: 300px;
+  }
+
+
+body { 
+font-family: 'Lora', serif;
+font-size: 18px;
+font-weight: lighter;
+margin: 0px; }
+
+ h1 { 
+ font-family: 'Anton', sans-serif;
+ font-size: 24px;
+ font-weight: bolder;
+  }
+h2, h3 { 
+ font-family: 'Anton', sans-serif;
+ font-size: 20px;
+}
+
+
+.btn-blue {
+  text-decoration: none;
+}
+a {
+  text-align: center;
+}
